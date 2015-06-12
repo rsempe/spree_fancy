@@ -17,21 +17,8 @@
       color: white;
       border-left: 5px solid lighten($c_orange, 8);
       border-right: 5px solid lighten($c_orange, 8);
-    }    
-
-    &.current, &.current-first, &.current-last,
-    &.completed-first, &.completed-last, &.completed {
-      
     }
-
-    &.completed-first, &.completed-last, &.completed {
-      background-color: lighten($c_green, 10);  
-      &, a {
-        color: lighten($c_green, 40);
-      }
-    }
-     
-  }  
+  }
 }
 
 #shipping_method {
@@ -40,7 +27,7 @@
       font-size: 14px;
       font-weight: 600;
     }
-  }  
+  }
 }
 
 fieldset {
@@ -50,7 +37,7 @@ fieldset {
   legend {
     font-size: 16px !important;
     font-weight: 600 !important;
-  } 
+  }
 }
 
 #checkout-summary {
@@ -64,13 +51,13 @@ fieldset {
     font-weight: 600;
     color: $c_blue;
     text-align: center;
-  }  
+  }
 
   tr[data-hook="order_total"] {
     td {
       border-top: 2px solid lighten($c_green, 30);
       color: $c_green;
-    }  
+    }
   }
 }
 
@@ -78,40 +65,40 @@ fieldset {
   td {
     font-size: 12px;
     font-weight: 600;
-    
+
     &:last-child, &:last-child span {
       color: $c_orange;
     }
-    &:last-child { 
+    &:last-child {
       &:before {
         content: '+ ';
-      } 
+      }
     }
-  }  
+  }
 }
 
 #payment-methods fieldset {
-  border: none !important;  
+  border: none !important;
 }
 
 .payment-method-selector.ui-buttonset {
-  text-align: center;  
+  text-align: center;
 }
 
 [data-hook="checkout_form_wrapper"] {
   .form-buttons {
     text-align: center;
-  }  
+  }
 }
 
 #summary-order-total, [data-hook="order_details"] [data-hook="order_item_total"] span,
 #order_total {
-  color: $c_green !important;  
+  color: #868686 !important;
   font-weight: 600 !important;
 }
 
 [data-hook="order_item_total"] {
-  text-align: center;  
+  text-align: center;
 }
 
 [data-hook="order_details_total"] {

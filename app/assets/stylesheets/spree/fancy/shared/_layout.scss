@@ -23,6 +23,9 @@ body {
   h1 {
     font-weight: 400;
     color: $body_text_color;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
 
     a {
       color: $c_orange;
